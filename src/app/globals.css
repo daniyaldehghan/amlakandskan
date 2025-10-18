@@ -1,0 +1,31 @@
+html,
+body {
+  max-width: 1200vw;
+  overflow-x: hidden;
+  padding: 0 10px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
