@@ -13,7 +13,7 @@ function ShareButton() {
   }, []);
 
   return (
-    <CopyToClipboard text={url}>
+    
       <div className={styles.container}>
         <LuShare2 />
         <button onClick={() => toast.success("لینک آگهی باموفقیت کپی شد")}>
@@ -21,7 +21,7 @@ function ShareButton() {
         </button>
         <Toaster />
       </div>
-    </CopyToClipboard>
+   
   );
 }
 
