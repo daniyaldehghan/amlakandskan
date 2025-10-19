@@ -15,6 +15,8 @@ function Search() {
           color: "#fff",
           marginLeft: "8px",
           padding: "5px",
+          border: "2px solid blue",
+
         }}
       >
         جست و جو
