@@ -16,7 +16,7 @@ function Search() {
           marginLeft: "8px",
           padding: "5px",
           border: "2px solid blue",
-
+          cursor: "pointer",
         }}
       >
         جست و جو
