@@ -1,6 +1,7 @@
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import styles from "@/layout/DashboardSide.module.css";
 import LogoutButton from "@/module/LogoutButton";
+import Search from "@/module/search";
 import { getServerSession } from "next-auth";
 import Link from "next/link";
 import { CgProfile } from "react-icons/cg";

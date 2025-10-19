@@ -3,6 +3,7 @@ import { FaCity } from "react-icons/fa";
 import styles from "@/template/HomePage.module.css";
 import CategoryCard from "@/module/CategoryCard";
 import Animations from "@/module/Animations";
+import Search from "@/module/search";
 
 function HomePage() {
   const servises = ["خرید", "فروش", "رهن", "اجاره"];
@@ -19,6 +20,7 @@ function HomePage() {
   return (
     <div className={styles.banner}>
       <div className={styles.desc}>
+      <Search />
         <Animations />
         <ul>
           {servises.map((i) => (

@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "./Header.module.css";
 import { useSession } from "next-auth/react";
 import { FaUserAlt } from "react-icons/fa";
+import Search from "@/module/search";
 
 function Header() {
   const { data } = useSession();
