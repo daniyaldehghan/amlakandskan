@@ -3,7 +3,7 @@ import SideBar from "@/module/SideBar";
 import styles from "@/template/BuyResidentPage.module.css";
 
 function BuyResidentPage({ data }) {
-  
+  console.log(data);
   return (
     <div className={styles.container}>
       <div className={styles.sidebar}>
